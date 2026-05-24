@@ -19,26 +19,26 @@ A powerful document processing system that uses **AI (Groq/Gemini)** to extract 
 ---
 
 ## 📁 Project Structure
+
+```text
 document_multi_agent/
 ├── routers/
-│ ├── init.py
-│ ├── documents.py # Document upload & management
-│ ├── chat.py # Document Q&A chat
-│ ├── export.py # Excel extraction & sharing
-│ ├── notifications.py # WhatsApp & Gmail notifications
-│ └── commands.py # Natural language command execution
-├── services.py # Core AI & notification services
-├── models.py # SQLAlchemy database models
-├── db.py # Database configuration
-├── config.py # Application settings
-├── main.py # FastAPI application entry point
-├── app.py # Streamlit frontend
-├── .env # Environment variables (DO NOT COMMIT)
-├── .gitignore # Git ignore rules
-├── requirements.txt # Python dependencies
-└── README.md # This file
-
-
+│   ├── __init__.py              # Router initialization
+│   ├── documents.py             # Document upload & management
+│   ├── chat.py                  # Document Q&A chat
+│   ├── export.py                # Excel extraction & sharing
+│   ├── notifications.py         # WhatsApp & Gmail notifications
+│   └── commands.py              # Natural language command execution
+├── services.py                  # Core AI & notification services
+├── models.py                    # SQLAlchemy database models
+├── db.py                        # Database configuration
+├── config.py                    # Application settings
+├── main.py                      # FastAPI application entry point
+├── app.py                       # Streamlit frontend
+├── .env                         # Environment variables (DO NOT COMMIT)
+├── .gitignore                   # Git ignore rules
+├── requirements.txt             # Python dependencies
+└── README.md                    # Project documentation
 
 create .env file
 
