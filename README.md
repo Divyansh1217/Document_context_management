@@ -62,38 +62,16 @@ GMAIL_APP_PASSWORD=your_16_char_gmail_app_password
 
 
 
-/api/v1/documents/upload/
-POST
-Upload and vectorize a document
+## 📡 API Endpoints
 
-/api/v1/documents/list/
-GET
-List all uploaded documents
-
-/api/v1/documents/{id}/
-GET
-Get specific document by ID
-
-/api/v1/chat/
-POST
-Chat with documents (Hybrid Search)
-
-/api/v1/export/excel/
-POST
-Extract data to Excel
-
-/api/v1/export/excel-and-share/
-POST
-Extract Excel + Send to WhatsApp/Gmail
-
-/api/v1/commands/execute/
-POST
-Execute natural language commands
-
-/api/v1/notifications/whatsapp/
-POST
-Send WhatsApp message
-
-/api/v1/notifications/email/
-POST
-Send Gmail email
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| `/api/v1/documents/upload/` | `POST` | Upload and vectorize a document |
+| `/api/v1/documents/list/` | `GET` | List all uploaded documents |
+| `/api/v1/documents/{id}/` | `GET` | Get specific document by ID |
+| `/api/v1/chat/` | `POST` | Chat with documents (Hybrid Search) |
+| `/api/v1/export/excel/` | `POST` | Extract data to Excel |
+| `/api/v1/export/excel-and-share/` | `POST` | Extract Excel + Send to WhatsApp/Gmail |
+| `/api/v1/commands/execute/` | `POST` | Execute natural language commands |
+| `/api/v1/notifications/whatsapp/` | `POST` | Send WhatsApp message |
+| `/api/v1/notifications/email/` | `POST` | Send Gmail email |
