@@ -1,0 +1,121 @@
+# -----------------------------------------------------------
+# 🔒 SENSITIVE DATA (CRITICAL)
+# -----------------------------------------------------------
+# Environment variables containing API keys and DB credentials
+.env
+.env.local
+.env.development
+.env.production
+*.env
+
+# -----------------------------------------------------------
+# 🐍 PYTHON ARTIFACTS
+# -----------------------------------------------------------
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# -----------------------------------------------------------
+# 🌐 VIRTUAL ENVIRONMENTS
+# -----------------------------------------------------------
+# Recommend excluding venvs from git
+venv/
+ENV/
+env/
+.venv/
+.conda/
+
+# -----------------------------------------------------------
+# 🗄️ DATABASE & STORAGE
+# -----------------------------------------------------------
+# Local SQLite databases (if used for testing)
+*.db
+*.sqlite
+*.sqlite3
+
+# Qdrant local storage (if running locally without Docker)
+qdrant_storage/
+
+# -----------------------------------------------------------
+# 📝 LOGS & TEMP FILES
+# -----------------------------------------------------------
+*.log
+logs/
+temp/
+tmp/
+.cache/
+
+# -----------------------------------------------------------
+# 💻 IDE & EDITOR
+# -----------------------------------------------------------
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# -----------------------------------------------------------
+# 🍎 OS FILES
+# -----------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# -----------------------------------------------------------
+# 📊 STREAMLIT & JUPYTER
+# -----------------------------------------------------------
+.streamlit/secrets.toml
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# -----------------------------------------------------------
+# 🧪 TESTING & COVERAGE
+# -----------------------------------------------------------
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# -----------------------------------------------------------
+# 📦 MISCELLANEOUS
+# -----------------------------------------------------------
+# Large data files (if you store sample docs locally)
+*.xlsx
+*.xls
+*.pdf
+*.txt
+!README.md
+!requirements.txt
