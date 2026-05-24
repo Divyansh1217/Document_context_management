@@ -39,6 +39,7 @@ document_multi_agent/
 ├── .gitignore                   # Git ignore rules
 ├── requirements.txt             # Python dependencies
 └── README.md                    # Project documentation
+```
 
 create .env file
 
